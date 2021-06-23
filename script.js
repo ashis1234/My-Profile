@@ -14,6 +14,6 @@ function clickListener(event) {
 		console.log('The email address must contain @');
 		return false;
 	}
-	console.log('Thanks for your message');
+	alert('Thanks for your message');
 }
 submitButton.addEventListener('click', clickListener);
