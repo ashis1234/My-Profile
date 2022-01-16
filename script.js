@@ -9,9 +9,8 @@ function clickListener(event) {
 
 	let emailText = emailInput.value;
 	let messageText = messageInput.value;
-
 	if(emailValidate(emailText) !== true) {
-		console.log('The email address must contain @');
+		alert('The email address must contain @');
 		return false;
 	}
 	alert('Thanks for your message');
